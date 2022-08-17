@@ -15,7 +15,7 @@ public class OrderDao {
         return Stream.of(
             new Order(1, new Date(), 1, 36.5),
             new Order(2, new Date(), 3, 325.5),
-            new Order(3, new Date(), 5, 1325.5)
+            new Order(3, new Date(), 5, 1325.2)
         ).collect(Collectors.toList());
     }
 }
