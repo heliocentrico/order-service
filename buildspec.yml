@@ -1,0 +1,14 @@
+--- 
+artifact: 
+  discard-path: true
+  files: 
+    - target/order.jar
+phases: 
+  build: 
+    commands: 
+      - "echo building ..."
+      - "mvn clean package"
+  post_build: 
+    commands: 
+      - "echo Build success"
+version: 0.2
